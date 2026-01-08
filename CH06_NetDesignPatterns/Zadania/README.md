@@ -1,205 +1,205 @@
-## W Folderze Samples s¹ dostêpne przyk³ady dla wszystkich klasycznychwzorcó projektowych Gangu Czworga.
+ï»¿## W Folderze Samples sÄ… dostÄ™pne przykÅ‚ady dla wszystkich klasycznychwzorcÃ³ projektowych Gangu Czworga.
 
-## W folderze Tasks s¹ dostêpne przyk³adowe rozwi¹zania poni¿szych zadañ z wzorców.
+## W folderze Tasks sÄ… dostÄ™pne przykÅ‚adowe rozwiÄ…zania poniÅ¼szych zadaÅ„ z wzorcÃ³w.
 
 ## Singleton
 
 ### Zadanie 1
-1. Stwórz now¹ aplikacjê konsolow¹ `SingletonVault`
-1. Stwórz klasê o nazwie `Vault`. Zadaniem tej klasy jest zwrócenie cyfrowego klucza dostêpowego do skarbca.
-1. Dlatego upewnij siê, ¿e jesteœ w stanie zwróciæ klucz tylko raz.
+1. StwÃ³rz nowÄ… aplikacjÄ™ konsolowÄ… `SingletonVault`
+1. StwÃ³rz klasÄ™ o nazwie `Vault`. Zadaniem tej klasy jest zwrÃ³cenie cyfrowego klucza dostÄ™powego do skarbca.
+1. Dlatego upewnij siÄ™, Å¼e jesteÅ› w stanie zwrÃ³ciÄ‡ klucz tylko raz.
 
 ## Factory
 
 ### Zadanie 1
-1. Stwórzy klasê Wojownik. Utwórz klasy dziedzicz¹ce Piechur, Strzelec, Konny.
-1. Stwórz klasê garnizon, która na podstawie nazwy profesji wyszkoli i zwróci nam obiekt odpowiedniego wojownika.
-1. Stwórz tablicê zawieraj¹c¹ 3 piechurów, 3 konnych i 4 strzelców.
+1. StwÃ³rzy klasÄ™ Wojownik. UtwÃ³rz klasy dziedziczÄ…ce Piechur, Strzelec, Konny.
+1. StwÃ³rz klasÄ™ garnizon, ktÃ³ra na podstawie nazwy profesji wyszkoli i zwrÃ³ci nam obiekt odpowiedniego wojownika.
+1. StwÃ³rz tablicÄ™ zawierajÄ…cÄ… 3 piechurÃ³w, 3 konnych i 4 strzelcÃ³w.
 
 ## Builder
 
 ### Zadanie 1
-1. Utwórz klasê abstrakcyjn¹ WarriorBuilder.
-1. Utwórz klasy PiechurBuilder, StrzelecBuilder, KonnyBuilder.
-1. Stwórz klasê Garnizon, której zadaniem bêdzie szkolenie wojowników o odpowiedniej profesji.
-1. Szkolenie powinno przebiegaæ w 3 krokach. Zapisanie siê do armii (utworzenie obiektu odpowiedniego typu), pobranie broni, trening walki.
-1. Wykorzystaj klasy wojowników z poprzedniego zadania. 
-1. Stwórz nowy garnizon i dodaj tam 2 piechurów, 2 konnych i 2 strzelców. 
-1. Mo¿esz wykorzystaæ interface `IWarrior` i listê generyczn¹ `List<IWarrior>`;
+1. UtwÃ³rz klasÄ™ abstrakcyjnÄ… WarriorBuilder.
+1. UtwÃ³rz klasy PiechurBuilder, StrzelecBuilder, KonnyBuilder.
+1. StwÃ³rz klasÄ™ Garnizon, ktÃ³rej zadaniem bÄ™dzie szkolenie wojownikÃ³w o odpowiedniej profesji.
+1. Szkolenie powinno przebiegaÄ‡ w 3 krokach. Zapisanie siÄ™ do armii (utworzenie obiektu odpowiedniego typu), pobranie broni, trening walki.
+1. Wykorzystaj klasy wojownikÃ³w z poprzedniego zadania. 
+1. StwÃ³rz nowy garnizon i dodaj tam 2 piechurÃ³w, 2 konnych i 2 strzelcÃ³w. 
+1. MoÅ¼esz wykorzystaÄ‡ interface `IWarrior` i listÄ™ generycznÄ… `List<IWarrior>`;
 
 ## Prototype
 
 ### Zadanie 1
-1. Stwórz klasê Ork.
-1. Stwórz nowego orka.
-1. Za pomoc¹ serializacji i deserializacji w pêtli stwórz kilka klonów utworzonego nowego obiektu klasy ork i dodaj do kolekcji.
-1. Zmieniaj im losowo np. parametr si³a. 
+1. StwÃ³rz klasÄ™ Ork.
+1. StwÃ³rz nowego orka.
+1. Za pomocÄ… serializacji i deserializacji w pÄ™tli stwÃ³rz kilka klonÃ³w utworzonego nowego obiektu klasy ork i dodaj do kolekcji.
+1. Zmieniaj im losowo np. parametr siÅ‚a. 
 1. Wykorzystaj https://www.newtonsoft.com/json/help/html/SerializingJSON.htm
 
 ## Facade
 
 ### Zadanie 1
-1. Wykorzystaj serwis pogodowy https://openweathermap.org/, który umo¿liwia pobieranie informacji o pogodzie.
-1. Zaprojektuj fasadê dla tej us³ugi. Fasada powinna udostêpniaæ uproszczony interfejs do korzystania z us³ugi, np. metodê, która zwraca aktualn¹ temperaturê w danym mieœcie.
-1. Stwórz interfejs u¿ytkownika w konsoli, który pozwoli u¿ytkownikowi na wybór miasta i wyœwietli aktualn¹ temperaturê w tym mieœcie.
-1. Zaimplementuj fasadê, aby korzystaæ z zewnêtrznego API, aby pobraæ informacje o pogodzie i zwróciæ uproszczony interfejs do wykorzystania w interfejsie u¿ytkownika.
-1. Przetestuj aplikacjê, upewniaj¹c siê, ¿e fasada dzia³a poprawnie i udostêpnia uproszczony interfejs u¿ytkownika do korzystania z zewnêtrznego API.
-1. Wykorzystaj do komunikacji klasê: HttpClient  
+1. Wykorzystaj serwis pogodowy https://openweathermap.org/, ktÃ³ry umoÅ¼liwia pobieranie informacji o pogodzie.
+1. Zaprojektuj fasadÄ™ dla tej usÅ‚ugi. Fasada powinna udostÄ™pniaÄ‡ uproszczony interfejs do korzystania z usÅ‚ugi, np. metodÄ™, ktÃ³ra zwraca aktualnÄ… temperaturÄ™ w danym mieÅ›cie.
+1. StwÃ³rz interfejs uÅ¼ytkownika w konsoli, ktÃ³ry pozwoli uÅ¼ytkownikowi na wybÃ³r miasta i wyÅ›wietli aktualnÄ… temperaturÄ™ w tym mieÅ›cie.
+1. Zaimplementuj fasadÄ™, aby korzystaÄ‡ z zewnÄ™trznego API, aby pobraÄ‡ informacje o pogodzie i zwrÃ³ciÄ‡ uproszczony interfejs do wykorzystania w interfejsie uÅ¼ytkownika.
+1. Przetestuj aplikacjÄ™, upewniajÄ…c siÄ™, Å¼e fasada dziaÅ‚a poprawnie i udostÄ™pnia uproszczony interfejs uÅ¼ytkownika do korzystania z zewnÄ™trznego API.
+1. Wykorzystaj do komunikacji klasÄ™: HttpClient  
 https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient
 
-Przyk³ad u¿ycia: 
+PrzykÅ‚ad uÅ¼ycia: 
 https://gist.github.com/AliA1997/b4b3e1066dd9f31a78554438ab5d61bd
 
 ## Proxy
 
 ### Zadanie 1
-1. Stwórz dwie klasy. Jedna ma reprezentowaæ obiekt dostêpny bez ograniczeñ, druga obiekt zastrze¿ony (dostêp ograniczony has³em).
-1. Zaprojektuj proxy, który bêdzie kontrolowaæ dostêp do plików po przez sprawdzenie czy has³o zwrócone zosta³o poprawnie.
-1. Stwórz interfejs u¿ytkownika w konsoli, który pozwoli u¿ytkownikowi na wybór obiektu do pobrania i wprowadzenie has³a.
-1. Przetestuj aplikacjê, upewniaj¹c siê, ¿e proxy dzia³a poprawnie i kontroluje dostêp do obiektów.
+1. StwÃ³rz dwie klasy. Jedna ma reprezentowaÄ‡ obiekt dostÄ™pny bez ograniczeÅ„, druga obiekt zastrzeÅ¼ony (dostÄ™p ograniczony hasÅ‚em).
+1. Zaprojektuj proxy, ktÃ³ry bÄ™dzie kontrolowaÄ‡ dostÄ™p do plikÃ³w po przez sprawdzenie czy hasÅ‚o zwrÃ³cone zostaÅ‚o poprawnie.
+1. StwÃ³rz interfejs uÅ¼ytkownika w konsoli, ktÃ³ry pozwoli uÅ¼ytkownikowi na wybÃ³r obiektu do pobrania i wprowadzenie hasÅ‚a.
+1. Przetestuj aplikacjÄ™, upewniajÄ…c siÄ™, Å¼e proxy dziaÅ‚a poprawnie i kontroluje dostÄ™p do obiektÃ³w.
 
 ## Adapter
 
 ### Zadanie 1
-1. Naszym zadaniem jest przechytrzyæ bramkarza w klubie nocnym.
-1. Nasz 17 letni Krzyœ chce dostaæ siê do klubu i potañczyæ, ale nie przechodzi walidacji (np. metoda IsAdult).
-1. Napisz adapter klasê `FakeAdult`, która dziedziczy po klasie `Adult`.
-1. Zadaniem adaptera jest oszukaæ walidacjê i pozwoliæ naszemu bohaterowi wejœæ i pobawiæ siê w klubie.
+1. Naszym zadaniem jest przechytrzyÄ‡ bramkarza w klubie nocnym.
+1. Nasz 17 letni KrzyÅ› chce dostaÄ‡ siÄ™ do klubu i potaÅ„czyÄ‡, ale nie przechodzi walidacji (np. metoda IsAdult).
+1. Napisz adapter klasÄ™ `FakeAdult`, ktÃ³ra dziedziczy po klasie `Adult`.
+1. Zadaniem adaptera jest oszukaÄ‡ walidacjÄ™ i pozwoliÄ‡ naszemu bohaterowi wejÅ›Ä‡ i pobawiÄ‡ siÄ™ w klubie.
 
 
 ## Bridge
 
 ### Zadanie 1
-1. WyobraŸmy sobie pulpit w naszym systemie operacyjnym. Dla systemu Windows jest to zazwyczaj oczywiste, ¿e bêdziemy korzystaæ z interface'u graficznego. Natomiast u¿ytkownik Linux mo¿e sobie interface wybraæ.
-2. Dlatego nie chcemy na sta³e wi¹zaæ interface z systemem operacyjnym.
-3. Proszê wdro¿yæ odpowiednie klasy (np. System, LinuxSystem, Interface, GraphicInterface).
-4. Proszê wdro¿yæ relacje miêdzy tymi elementami za pomoc¹ wzorca bridge.
-5. Przetestuj poprawnoœæ rozwi¹zanie. Niech naciœniecie przycisku menu w naszym interface zwróci nam z systemu listê zainstalowanych programów. (na potrzeby zadania bêdzie to wywo³anie w konsoli funkcji `displayMenu`).
+1. WyobraÅ¸my sobie pulpit w naszym systemie operacyjnym. Dla systemu Windows jest to zazwyczaj oczywiste, Å¼e bÄ™dziemy korzystaÄ‡ z interface'u graficznego. Natomiast uÅ¼ytkownik Linux moÅ¼e sobie interface wybraÄ‡.
+2. Dlatego nie chcemy na staÅ‚e wiÄ…zaÄ‡ interface z systemem operacyjnym.
+3. ProszÄ™ wdroÅ¼yÄ‡ odpowiednie klasy (np. System, LinuxSystem, Interface, GraphicInterface).
+4. ProszÄ™ wdroÅ¼yÄ‡ relacje miÄ™dzy tymi elementami za pomocÄ… wzorca bridge.
+5. Przetestuj poprawnoÅ›Ä‡ rozwiÄ…zanie. Niech naciÅ›niecie przycisku menu w naszym interface zwrÃ³ci nam z systemu listÄ™ zainstalowanych programÃ³w. (na potrzeby zadania bÄ™dzie to wywoÅ‚anie w konsoli funkcji `displayMenu`).
 
 ## Decorator
 
 ### Zadanie 1
-1. Przygotuj klasê sklepu np. `Shop`.
-2. Dodaj mo¿liwoœæ p³acenia 3 ró¿nymi sposobami p³atnoœci (nie implementuj prawdziwego po³¹czenia z systemem p³atnoœci).
-3. Je¿eli u¿ytkownik zap³aci kart¹ powinien uruchamiaæ siê dekorator. 
-4. Dodaj 3 dekoratory, które bêd¹ wykonywa³y siê przy p³atnoœci. Np. powiadomienie sms o p³atnoœci, dodanie punktów lojalnoœciowych, przekierowanie na stronê g³ówn¹ sklepu.
+1. Przygotuj klasÄ™ sklepu np. `Shop`.
+2. Dodaj moÅ¼liwoÅ›Ä‡ pÅ‚acenia 3 rÃ³Å¼nymi sposobami pÅ‚atnoÅ›ci (nie implementuj prawdziwego poÅ‚Ä…czenia z systemem pÅ‚atnoÅ›ci).
+3. JeÅ¼eli uÅ¼ytkownik zapÅ‚aci kartÄ… powinien uruchamiaÄ‡ siÄ™ dekorator. 
+4. Dodaj 3 dekoratory, ktÃ³re bÄ™dÄ… wykonywaÅ‚y siÄ™ przy pÅ‚atnoÅ›ci. Np. powiadomienie sms o pÅ‚atnoÅ›ci, dodanie punktÃ³w lojalnoÅ›ciowych, przekierowanie na stronÄ™ gÅ‚Ã³wnÄ… sklepu.
 
 ## Composite 
 
 ## Zadanie 1
 
-1. Napisz program, który symuluje menu restauracji. 
-1. Ka¿da pozycja w menu mo¿e byæ daniem (liœæ) lub podkategori¹ (kompozyt) zawieraj¹c¹ inne dania lub podkategorie. 
-1. Stwórz strukturê, która bêdzie w stanie wyœwietliæ pe³ne menu z mo¿liwoœci¹ zag³êbiania siê w podkategorie.
+1. Napisz program, ktÃ³ry symuluje menu restauracji. 
+1. KaÅ¼da pozycja w menu moÅ¼e byÄ‡ daniem (liÅ›Ä‡) lub podkategoriÄ… (kompozyt) zawierajÄ…cÄ… inne dania lub podkategorie. 
+1. StwÃ³rz strukturÄ™, ktÃ³ra bÄ™dzie w stanie wyÅ›wietliÄ‡ peÅ‚ne menu z moÅ¼liwoÅ›ciÄ… zagÅ‚Ä™biania siÄ™ w podkategorie.
 
 ## Flyweight 
 
 ## Zadanie 1
 
-1. Napisz program, który symuluje system zarz¹dzania teksturami w grze. 
-1. Ka¿da tekstura powinna byæ wczytywana z pliku tylko raz i wspó³dzielona pomiêdzy ró¿nymi obiektami, 
-które jej u¿ywaj¹ (np. postaciami, elementami otoczenia).
+1. Napisz program, ktÃ³ry symuluje system zarzÄ…dzania teksturami w grze. 
+1. KaÅ¼da tekstura powinna byÄ‡ wczytywana z pliku tylko raz i wspÃ³Å‚dzielona pomiÄ™dzy rÃ³Å¼nymi obiektami, 
+ktÃ³re jej uÅ¼ywajÄ… (np. postaciami, elementami otoczenia).
 
 ## Command
 
 ### Zadanie 1
 
-1. Stwórz klasê `SantaClausFactory`. 
-1. Jej zadaniem bêdzie odbieranie odpowiednich poleceñ (commands) i produkowanie zabawek lub rózg.
-2. Stwórz klasê pomocnika Œwiêtego Miko³aja, który bêdzie przekazywa³ polecenia do fabryki.  
-3. Wykonaj 3 zabawki i jedn¹ rózgê.
+1. StwÃ³rz klasÄ™ `SantaClausFactory`. 
+1. Jej zadaniem bÄ™dzie odbieranie odpowiednich poleceÅ„ (commands) i produkowanie zabawek lub rÃ³zg.
+2. StwÃ³rz klasÄ™ pomocnika Å›wiÄ™tego MikoÅ‚aja, ktÃ³ry bÄ™dzie przekazywaÅ‚ polecenia do fabryki.  
+3. Wykonaj 3 zabawki i jednÄ… rÃ³zgÄ™.
 
 ## Observer
 
 ### Zadanie 1
 
-1. Za³ó¿my, ¿e jest grupa studentów, która oczekuje na wyniki egzaminu i jest obiekt wyk³adowca.
-2. Napisz implementacje wzorca obserwatora w ten sposób, ¿e w momencie, gdy wyk³adowca og³osi wyniki, ka¿dy student dostanie informacje o swoim wyniku.
+1. ZaÅ‚Ã³Å¼my, Å¼e jest grupa studentÃ³w, ktÃ³ra oczekuje na wyniki egzaminu i jest obiekt wykÅ‚adowca.
+2. Napisz implementacje wzorca obserwatora w ten sposÃ³b, Å¼e w momencie, gdy wykÅ‚adowca ogÅ‚osi wyniki, kaÅ¼dy student dostanie informacje o swoim wyniku.
 
 ## Strategy
 
 ## Zadanie 1
 
-1. W naszej redakcji internetowej chcielibyœmy móc w ³atwy sposób przeszukaæ ró¿ne bazy zdjêæ.
-2. Zaimplementuj rozwi¹zanie, które w zale¿noœci od preferencji pozwoli przeszukaæ bazê zdjêæ [Pexels](https://www.pexels.com/api/) 
-lub bazê zdjêæ [Pixabay](https://pixabay.com/api/docs/), po wybranej nazwie kategorii.
-3. Wykonaj wszystkie wymagane kroki, ¿eby móc korzystaæ z API dla obu rozwi¹zañ.
+1. W naszej redakcji internetowej chcielibyÅ›my mÃ³c w Å‚atwy sposÃ³b przeszukaÄ‡ rÃ³Å¼ne bazy zdjÄ™Ä‡.
+2. Zaimplementuj rozwiÄ…zanie, ktÃ³re w zaleÅ¼noÅ›ci od preferencji pozwoli przeszukaÄ‡ bazÄ™ zdjÄ™Ä‡ [Pexels](https://www.pexels.com/api/) 
+lub bazÄ™ zdjÄ™Ä‡ [Pixabay](https://pixabay.com/api/docs/), po wybranej nazwie kategorii.
+3. Wykonaj wszystkie wymagane kroki, Å¼eby mÃ³c korzystaÄ‡ z API dla obu rozwiÄ…zaÅ„.
 
 ## Visitor
 
 ## Zadanie 1
 
-1. Napisz program, który symuluje system sklepu internetowego. 
-1. Sklep ma ró¿ne typy produktów: Book (ksi¹¿ka) i Electronics (elektronika). Ka¿dy produkt powinien zaakceptowaæ odwiedzaj¹cego, który mo¿e obliczyæ:
-Cenê po zastosowaniu zni¿ki (np. 10% dla ksi¹¿ek i 5% dla elektroniki).
-Koszt dostawy (np. 5 z³ dla ksi¹¿ek i 15 z³ dla elektroniki).
-Ka¿dy produkt powinien posiadaæ cenê bazow¹, na podstawie której zostan¹ wykonane obliczenia.
+1. Napisz program, ktÃ³ry symuluje system sklepu internetowego. 
+1. Sklep ma rÃ³Å¼ne typy produktÃ³w: Book (ksiÄ…Å¼ka) i Electronics (elektronika). KaÅ¼dy produkt powinien zaakceptowaÄ‡ odwiedzajÄ…cego, ktÃ³ry moÅ¼e obliczyÄ‡:
+CenÄ™ po zastosowaniu zniÅ¼ki (np. 10% dla ksiÄ…Å¼ek i 5% dla elektroniki).
+Koszt dostawy (np. 5 zÅ‚ dla ksiÄ…Å¼ek i 15 zÅ‚ dla elektroniki).
+KaÅ¼dy produkt powinien posiadaÄ‡ cenÄ™ bazowÄ…, na podstawie ktÃ³rej zostanÄ… wykonane obliczenia.
 
 ## Memento
 
 ## Zadanie 1
 
-1. Napisz program symuluj¹cy prosty notatnik, w którym u¿ytkownik mo¿e dodawaæ linie tekstu. 
-1. Notatnik powinien umo¿liwiaæ cofanie ostatnio dodanej linii, przywracaj¹c stan notatki do poprzedniego stanu.
+1. Napisz program symulujÄ…cy prosty notatnik, w ktÃ³rym uÅ¼ytkownik moÅ¼e dodawaÄ‡ linie tekstu. 
+1. Notatnik powinien umoÅ¼liwiaÄ‡ cofanie ostatnio dodanej linii, przywracajÄ…c stan notatki do poprzedniego stanu.
 
 Wymagania
 
 Operacje:
-Dodawanie tekstu: Dodaje now¹ liniê tekstu do notatki.
+Dodawanie tekstu: Dodaje nowÄ… liniÄ™ tekstu do notatki.
 
 Cofanie: 
-Usuwa ostatnio dodan¹ liniê tekstu, przywracaj¹c poprzedni stan.
+Usuwa ostatnio dodanÄ… liniÄ™ tekstu, przywracajÄ…c poprzedni stan.
 
 Przechowywanie stanu:
-Program powinien zapisywaæ stan notatki po ka¿dej operacji i umo¿liwiaæ cofanie.
+Program powinien zapisywaÄ‡ stan notatki po kaÅ¼dej operacji i umoÅ¼liwiaÄ‡ cofanie.
 
 ## Template Method
 
 ## Zadanie 1
 
-1. Stwórz program, który symuluje proces przetwarzania dokumentu. 
-1. Dokument mo¿e byæ w formacie PDF lub Word. W obu przypadkach proces przetwarzania dokumentu sk³ada siê z nastêpuj¹cych kroków:
+1. StwÃ³rz program, ktÃ³ry symuluje proces przetwarzania dokumentu. 
+1. Dokument moÅ¼e byÄ‡ w formacie PDF lub Word. W obu przypadkach proces przetwarzania dokumentu skÅ‚ada siÄ™ z nastÄ™pujÄ…cych krokÃ³w:
 Otwieranie dokumentu.
-Parsowanie treœci dokumentu (ró¿ne dla PDF i Word).
-Wyœwietlanie treœci dokumentu.
-Zamkniêcie dokumentu.
-Zdefiniuj szablon metody w klasie bazowej ``DocumentProcessor`` i utwórz klasy pochodne `PDFProcessor` i `WordProcessor`, które implementuj¹ szczegó³y specyficzne dla danego formatu.
+Parsowanie treÅ›ci dokumentu (rÃ³Å¼ne dla PDF i Word).
+WyÅ›wietlanie treÅ›ci dokumentu.
+ZamkniÄ™cie dokumentu.
+Zdefiniuj szablon metody w klasie bazowej ``DocumentProcessor`` i utwÃ³rz klasy pochodne `PDFProcessor` i `WordProcessor`, ktÃ³re implementujÄ… szczegÃ³Å‚y specyficzne dla danego formatu.
 
 ## Mediator 
 
 ## Zadanie 1
 
-1. Stwórz program symuluj¹cy kontrolê lotów na lotnisku. 
-1. Samoloty (Airplane) komunikuj¹ siê ze sob¹ i z wie¿¹ kontroli lotów (ControlTower) za poœrednictwem mediatora. 
-1. Mediator (ControlTower) zarz¹dza komunikacj¹ i decyduje, które samoloty mog¹ l¹dowaæ, startowaæ, lub ko³owaæ.
+1. StwÃ³rz program symulujÄ…cy kontrolÄ™ lotÃ³w na lotnisku. 
+1. Samoloty (Airplane) komunikujÄ… siÄ™ ze sobÄ… i z wieÅ¼Ä… kontroli lotÃ³w (ControlTower) za poÅ›rednictwem mediatora. 
+1. Mediator (ControlTower) zarzÄ…dza komunikacjÄ… i decyduje, ktÃ³re samoloty mogÄ… lÄ…dowaÄ‡, startowaÄ‡, lub koÅ‚owaÄ‡.
 
 ## Chain of Responsibility
 
 ## Zadanie 1
 
 
-1. Stwórz program symuluj¹cy system przetwarzania dokumentów w firmie. 
-1. Dokumenty mog¹ mieæ ró¿ne poziomy priorytetu: Niski, Œredni, Wysoki. Ka¿dy dokument jest przetwarzany przez odpowiedniego pracownika:
+1. StwÃ³rz program symulujÄ…cy system przetwarzania dokumentÃ³w w firmie. 
+1. Dokumenty mogÄ… mieÄ‡ rÃ³Å¼ne poziomy priorytetu: Niski, Å›redni, Wysoki. KaÅ¼dy dokument jest przetwarzany przez odpowiedniego pracownika:
 1. Pracownik pierwszego poziomu przetwarza dokumenty o niskim priorytecie.
-1. Pracownik drugiego poziomu przetwarza dokumenty o œrednim priorytecie.
+1. Pracownik drugiego poziomu przetwarza dokumenty o Å›rednim priorytecie.
 1. Pracownik trzeciego poziomu przetwarza dokumenty o wysokim priorytecie.
-1. Jeœli dokument nie zostanie obs³u¿ony na odpowiednim poziomie, powinien zostaæ przekazany do wy¿szego poziomu.
+1. JeÅ›li dokument nie zostanie obsÅ‚uÅ¼ony na odpowiednim poziomie, powinien zostaÄ‡ przekazany do wyÅ¼szego poziomu.
 
-## Warsztat 1: System Zarz¹dzania Zamówieniami
+## Warsztat 1: System ZarzÄ…dzania ZamÃ³wieniami
 Opis Problemu
-Masz do czynienia z systemem zarz¹dzania zamówieniami, który jest Ÿle zaprojektowany. Kody odpowiedzialne za ró¿ne operacje s¹ pomieszane i mocno ze sob¹ powi¹zane, co utrudnia modyfikacjê i rozwój systemu. Celem warsztatu jest refaktoryzacja kodu, aby by³ bardziej czytelny, ³atwiejszy w utrzymaniu i zgodny z zasadami programowania obiektowego, a jednoczeœnie zastosowanie w nim ró¿nych wzorców projektowych.
+Masz do czynienia z systemem zarzÄ…dzania zamÃ³wieniami, ktÃ³ry jest Å¸le zaprojektowany. Kody odpowiedzialne za rÃ³Å¼ne operacje sÄ… pomieszane i mocno ze sobÄ… powiÄ…zane, co utrudnia modyfikacjÄ™ i rozwÃ³j systemu. Celem warsztatu jest refaktoryzacja kodu, aby byÅ‚ bardziej czytelny, Å‚atwiejszy w utrzymaniu i zgodny z zasadami programowania obiektowego, a jednoczeÅ›nie zastosowanie w nim rÃ³Å¼nych wzorcÃ³w projektowych.
 
-Sytuacja wyjœciowa
-Zarz¹dzanie zamówieniami:
+Sytuacja wyjÅ›ciowa
+ZarzÄ…dzanie zamÃ³wieniami:
 
-System obs³uguje ró¿ne typy zamówieñ: StandardOrder, ExpressOrder.
-Obliczanie kosztów dostawy jest zagnie¿d¿one w klasie zamówienia.
-Powiadomienia s¹ wysy³ane za pomoc¹ ró¿nych kana³ów komunikacji (e-mail, SMS) bezpoœrednio z klasy zamówienia.
-Zamówienia musz¹ byæ przetwarzane przez ró¿ne etapy: Przyjête, W trakcie realizacji, Wys³ane.
+System obsÅ‚uguje rÃ³Å¼ne typy zamÃ³wieÅ„: StandardOrder, ExpressOrder.
+Obliczanie kosztÃ³w dostawy jest zagnieÅ¼dÅ¼one w klasie zamÃ³wienia.
+Powiadomienia sÄ… wysyÅ‚ane za pomocÄ… rÃ³Å¼nych kanaÅ‚Ã³w komunikacji (e-mail, SMS) bezpoÅ›rednio z klasy zamÃ³wienia.
+ZamÃ³wienia muszÄ… byÄ‡ przetwarzane przez rÃ³Å¼ne etapy: PrzyjÄ™te, W trakcie realizacji, WysÅ‚ane.
 Cel refaktoryzacji:
 
-Oddzieliæ ró¿ne odpowiedzialnoœci i wprowadziæ wzorce projektowe takie jak: Strategy, Observer, Factory Method, State, Command.
-Kod przed refaktoryzacj¹
+OddzieliÄ‡ rÃ³Å¼ne odpowiedzialnoÅ›ci i wprowadziÄ‡ wzorce projektowe takie jak: Strategy, Observer, Factory Method, State, Command.
+Kod przed refaktoryzacjÄ…
 
 ```csharp	
 using System;
@@ -213,7 +213,7 @@ public class Order
 
     public void ProcessOrder()
     {
-        Console.WriteLine($"Przetwarzanie zamówienia typu {OrderType}...");
+        Console.WriteLine($"Przetwarzanie zamÃ³wienia typu {OrderType}...");
         
         double shippingCost = 0;
         if (OrderType == "Standard")
@@ -225,22 +225,22 @@ public class Order
             shippingCost = 20;
         }
         
-        Console.WriteLine($"Koszt dostawy: {shippingCost} z³");
+        Console.WriteLine($"Koszt dostawy: {shippingCost} zÅ‚");
         Amount += shippingCost;
 
-        Console.WriteLine("Wysy³anie powiadomienia e-mail...");
-        Console.WriteLine("Wysy³anie powiadomienia SMS...");
+        Console.WriteLine("WysyÅ‚anie powiadomienia e-mail...");
+        Console.WriteLine("WysyÅ‚anie powiadomienia SMS...");
 
-        if (Status == "Przyjête")
+        if (Status == "PrzyjÄ™te")
         {
             Status = "W trakcie realizacji";
         }
         else if (Status == "W trakcie realizacji")
         {
-            Status = "Wys³ane";
+            Status = "WysÅ‚ane";
         }
 
-        Console.WriteLine($"Nowy status zamówienia: {Status}");
+        Console.WriteLine($"Nowy status zamÃ³wienia: {Status}");
     }
 }
 
@@ -248,18 +248,18 @@ class Program
 {
     static void Main()
     {
-        Order order1 = new Order { OrderType = "Standard", Status = "Przyjête", Amount = 100 };
+        Order order1 = new Order { OrderType = "Standard", Status = "PrzyjÄ™te", Amount = 100 };
         order1.ProcessOrder();
 
-        Order order2 = new Order { OrderType = "Express", Status = "Przyjête", Amount = 200 };
+        Order order2 = new Order { OrderType = "Express", Status = "PrzyjÄ™te", Amount = 200 };
         order2.ProcessOrder();
     }
 }
 ```
 
 Cele Refaktoryzacji
-Strategy Pattern: Wykorzystaj wzorzec Strategii do obliczania kosztów dostawy.
-Observer Pattern: Wykorzystaj wzorzec Obserwatora do obs³ugi powiadomieñ.
-Factory Method Pattern: Wykorzystaj wzorzec Metody Fabrycznej do tworzenia ró¿nych typów zamówieñ.
-State Pattern: Wykorzystaj wzorzec Stanu do zarz¹dzania statusem zamówienia.
-Command Pattern: Wykorzystaj wzorzec Komendy do obs³ugi dzia³añ zwi¹zanych z zamówieniem.
+Strategy Pattern: Wykorzystaj wzorzec Strategii do obliczania kosztÃ³w dostawy.
+Observer Pattern: Wykorzystaj wzorzec Obserwatora do obsÅ‚ugi powiadomieÅ„.
+Factory Method Pattern: Wykorzystaj wzorzec Metody Fabrycznej do tworzenia rÃ³Å¼nych typÃ³w zamÃ³wieÅ„.
+State Pattern: Wykorzystaj wzorzec Stanu do zarzÄ…dzania statusem zamÃ³wienia.
+Command Pattern: Wykorzystaj wzorzec Komendy do obsÅ‚ugi dziaÅ‚aÅ„ zwiÄ…zanych z zamÃ³wieniem.
