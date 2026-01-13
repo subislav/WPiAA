@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RefactoringToDesignPatterns")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db93b084033f7583b09580204711fa80e8bff1a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5efd4d17d6a75b9eaf8dfd5d5008994d4b5e96c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RefactoringToDesignPatterns")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RefactoringToDesignPatterns")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
